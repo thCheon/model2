@@ -13,17 +13,17 @@ java파일 폼 이동부분은 마지막에 form, 기능 부분은 마지막에 
 3. 로그인	  	login 			MemberLogin
 4. 로그아웃 	 				MemberLoout
 5. 회원가입 		join 			MemberJoin
-6. 회원정보 조회	info 			MemberInfo
+6. 회원정보 조회		info 			MemberInfo
 7. 회원정보 수정 	memberUpdate 		MemberInfoUpdate
 8. 회원탈퇴 		withdrawal 		MemberDelete
 9. 네이버 로그인 	login,Callback,profile 	MemberloginForm(clientId부분)
 10. 게시판 		board 			BoardAction
-11. 게시글 보기  	boardView 		BoardView
-12. 게시글 쓰기 	boardWrite 		BoardWrite
-13. 게시글 수정 	boardUpdate 		BoardUpdate
-14. 게시글 덧글 	boardReply 		BoardReply
+11. 게시글 보기  		boardView 		BoardView
+12. 게시글 쓰기 		boardWrite 		BoardWrite
+13. 게시글 수정 		boardUpdate 		BoardUpdate
+14. 게시글 덧글 		boardReply 		BoardReply
 15. 게시글 검색		header, boardSearch	BoardSearch
 16. 게시글 내가쓴 글 	myBoard 		BoardMyList
-17. 게시글 삭제 	boardDelete 		BoardDelete
+17. 게시글 삭제 		boardDelete 		BoardDelete
 18. 네이버 검색		naverSearch		NaverSearchAction, NaverItems
 19. 네이버 캡챠_적용x	test,test2,testaction	NaverCapcha
