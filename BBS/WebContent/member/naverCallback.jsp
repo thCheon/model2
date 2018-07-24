@@ -16,11 +16,11 @@
 	<%
 		PrintWriter script = response.getWriter();
 
-		String clientId = "xHnGDEiESs7O3i28j1Wl";//애플리케이션 클라이언트 아이디값";
-		String clientSecret = "QvwIWephMB";//애플리케이션 클라이언트 시크릿값";
+		String clientId = "your clientId";//애플리케이션 클라이언트 아이디값";
+		String clientSecret = "yout clientSecret";//애플리케이션 클라이언트 시크릿값";
 		String code = request.getParameter("code");
 		String state = request.getParameter("state");
-		String redirectURI = URLEncoder.encode("http://localhost:8081/BBS/member/naverCallback.jsp", "UTF-8");
+		String redirectURI = URLEncoder.encode("your Callback_URL", "UTF-8");
 		String apiURL;
 		apiURL = "https://nid.naver.com/oauth2.0/token?grant_type=authorization_code&";
 		apiURL += "client_id=" + clientId;
