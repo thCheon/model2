@@ -18,7 +18,7 @@ java파일 폼 이동부분은 마지막에 form, 기능 부분은 마지막에 
 8. 회원탈퇴 		withdrawal 		MemberDelete
 9. 네이버 로그인 	login,Callback,profile 	MemberloginForm(clientId부분)
 10. 게시판 		board 			BoardAction
-11. 게시글 보기  		boardView 		BoardView
+11. 게시글 보기  	boardView 		BoardView
 12. 게시글 쓰기 		boardWrite 		BoardWrite
 13. 게시글 수정 		boardUpdate 		BoardUpdate
 14. 게시글 덧글 		boardReply 		BoardReply
